@@ -9,7 +9,7 @@
   - Call SP first then redirect
   - Call SP first then redirect without need for input credentials
   - Call IDP first then call the SP
-- JWT IDP and SP In Progress started 1130-2200 10/20/20
+- JWT IDP and SP
   - IDP
   - SP `TODO`
 - Oauth Facebook, Google `TODO`
