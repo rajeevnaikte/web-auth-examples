@@ -17,7 +17,6 @@
 - Passwordless auth - using devices like USB, RFID cards etc. `TODO`
 
 ## X509 Certificate procedure
-X509 Certificate procedure:
 - There will be a root certificate which is to be trusted by all parties.
   - Create private key - `openssl genrsa -des3 -out rootCA.key 2048`
   - Generate self-signed cert - `openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 3650 -out rootCA.crt`
